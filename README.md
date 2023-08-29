@@ -2,7 +2,7 @@
 [https://patelpratyush.github.io/](https://patelpratyush.github.io/)
 
 ## Website Preview
-![](https://github.com/patelpratyush/patelpratyush.github.io/preview.gif)
+![](https://github.com/patelpratyush/patelpratyush.github.io/blob/main/preview.gif)
 
 ## Features 📋
 &#9889; Fully Responsive  
