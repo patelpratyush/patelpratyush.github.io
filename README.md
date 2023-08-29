@@ -1,7 +1,8 @@
 # Personal Portfolio
 [https://patelpratyush.github.io/](https://patelpratyush.github.io/)
 
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2Y3b2ZtN21tYnMwYjA3ZWFmbHN2bDdxNThlYmhrdm82Z3gxZWg3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w6KkBBAajIUeXEeKRC/giphy.gif)
+## Website Preview
+![](https://github.com/patelpratyush/patelpratyush.github.io/preview.gif)
 
 ## Features 📋
 &#9889; Fully Responsive  
