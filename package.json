@@ -8,5 +8,8 @@
     "start": "http-server -o"
   },
   "author": "Pratyush Patel",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
 }
