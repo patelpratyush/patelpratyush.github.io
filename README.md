@@ -1,6 +1,6 @@
 ## Website Preview
 
-![](https://github.com/patelpratyush/patelpratyush.github.io/blob/main/preview.gif)
+![](https://github.com/patelpratyush/patelpratyush.github.io/blob/main/Preview.gif)
 
 ## Features 📋
 
