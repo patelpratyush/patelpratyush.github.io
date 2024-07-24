@@ -1,6 +1,3 @@
-
-
-
 ## Features 📋
 &#9889; Fully Responsive  
 &#9889; Valid HTML5 & CSS3  
