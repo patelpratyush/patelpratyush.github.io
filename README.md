@@ -1,3 +1,7 @@
+## Website Preview
+
+![](https://github.com/patelpratyush/patelpratyush.github.io/blob/main/preview.gif)
+
 ## Features 📋
 
 &#9889; Fully Responsive  
@@ -7,7 +11,7 @@
 ## Sections 📚
 
 &#10004; About  
-&#10004; Projects   
+&#10004; Projects
 &#10004; Resume  
 &#10004; Contact Info  
 
