@@ -32,7 +32,7 @@ function contact(event) {
     loading.classList.add("modal__overlay--visible");
     emailjs
         .sendForm(
-            "sservice_x3rcr8q",
+            "service_o60vhrh",
             "template_68g73sg",
             event.target,
             "flrgfS_1a5y35U1C1"
