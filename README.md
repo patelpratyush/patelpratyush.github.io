@@ -12,6 +12,7 @@
 
 &#10004; About  
 &#10004; Projects
+
 &#10004; Resume  
 &#10004; Contact Info  
 
