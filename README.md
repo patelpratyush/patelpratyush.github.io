@@ -1,20 +1,24 @@
-## Website Preview
+# Personal Portfolio
+[https://patelpratyush.github.io/](https://patelpratyush.github.io/)
 
-![](https://github.com/patelpratyush/patelpratyush.github.io/blob/main/Preview.gif)
+## Website Preview
+![](https://github.com/patelpratyush/patelpratyush.github.io/blob/main/preview.gif)
 
 ## Features 📋
-
 &#9889; Fully Responsive  
 &#9889; Valid HTML5 & CSS3  
+&#9889; Typing animation using Typed.js  
 &#9889; Easy to modify  
 
 ## Sections 📚
-
 &#10004; About  
-&#10004; Projects
+&#10004; Interests  
+&#10004; Education  
+&#10004; Experience  
+&#10004; Projects  
+&#10004; Skills  
 &#10004; Resume  
 &#10004; Contact Info  
 
 ## Tools Used 🛠
-
-- Vercel - To host my static website (HTML, CSS, JS).
+- GitHub Pages - To host my static website (HTML, CSS, JS).
