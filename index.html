@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JKN2TZ3CNK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JKN2TZ3CNK');
+</script>
+
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratyush | Portfolio</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/PP..png">
+    <script src="https://kit.fontawesome.com/a3ae5aba6e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "OGVq5jbZr4x4aaLdm",
+            });
+        })();
+    </script>
+</head>
+
+<body onmousemove="moveBackground(event)">
+    <section id="landing-page">
+        <nav>
+            <figure>
+                <img id="personal-logo" src="./assets/PP.png" alt="" />
+            </figure>
+            <ul class="nav__link--list">
+                <li class="nav__link" >
+                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black"
+                        onclick="toggleModal()">About</a>
+                </li>
+                <li class="nav__link">
+                    <a href="#skills"
+                        class="nav__link--anchor link__hover-effect link__hover-effect--black">Skills</a>
+                </li>
+                <li class="nav__link">
+                    <a href="#projects"
+                        class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
+                </li>
+                <li class="nav__link" onclick="toggleModal()">
+                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact</a>
+                </li>
+                <li class="nav__link click" onclick="toggleContrast()">
+                    <a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black"><i
+                            class="fa-solid fa-circle-half-stroke"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <header class="header">
+            <div class="header__content">
+                <div>
+                    <h1 class="title">Hey,</h1>
+                    <h1 class="title blue">I'm Pratyush.</h1>
+                    <p class="header__para">
+                        I'm a <b class="blue">CS Student</b> with a strong
+                        interest in <b class="blue">Software Development</b> and
+                        <br />
+                        Here's a bit more <b class="blue click" onclick="toggleModal()">about me</b>.
+                    </p>
+                    <div class="social__list">
+                        <a href="https://www.linkedin.com/in/pratyush-patel/" target="_blank"
+                            class="social__link click">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/patelpratyush" target="_blank" class="social__link click">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="./assets/Pratyush_Patel_Resume.pdf" target="_blank" class="social__link click">
+                            <i class="fa-solid fa-file-pdf"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="header__content--me">
+                <figure class="header__me click">
+                    <a href="https://www.linkedin.com/in/pratyush-patel/" target="_blank">
+                        <img src="./assets/profile.jpeg" class="header__me--border" alt="">
+                    </a>
+                    </figure>
+            </div>
+        </header>
+        <a href="#landing-page">
+            <button class="mail__btn click" onclick="toggleModal()">
+                <i class="fa-solid fa-envelope"></i>
+            </button>
+        </a>
+        <a href="#skills" class="scroll">
+            <div class="scroll__icon click"></div>
+        </a>
+        <div class="modal">
+            <div class="modal__half modal__about">
+                <h3 class="modal__title modal__title--about">
+                    Here's a bit about me.
+                </h3>
+                <h4 class="modal__sub-title modal__sub-title--about">
+                    CS Student
+                </h4>
+                <p class="modal__para">
+                    I'm a dedicated
+                    <b class="blue">Computer Science Student</b> with a strong interest
+                    in <b class="blue">Software Development</b> and
+                    <b class="blue">user experiences.</b>
+                    <br />
+                    I currently study and work on challenging engineering problems, constantly learning
+                    from a curriculum and projects designed by some of the most
+                    <b class="blue">talented</b> and
+                    <b class="blue">experienced</b> educators and engineers in the field.
+                </p>                
+                <div class="modal__languages">
+                    <figure class="modal__language">
+                        <img class="modal__language--img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                            alt="" /><span class="language__name"> HTML</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                            alt="" /><span class="language__name"> CSS</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="" /><span
+                            class="language__name"> JavaScript</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/242px-Python-logo-notext.svg.png"
+                            alt="" /><span class="language__name"> Python</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img"
+                            src="https://classes.engineering.wustl.edu/cse425s/images/2/26/Java.png" alt="" /><span
+                            class="language__name"> Java</span>
+                    </figure>
+                </div>
+            </div>
+            <div class="modal__half modal__contact">
+                <i class="fa-solid fa-xmark modal__exit click" onclick="toggleModal()"></i>
+                <h3 class="modal__title modal__title--contact">Contact Me.
+                </h3>
+                <h3 class="modal__sub-title modal__sub-title--contact">
+                </h3>
+                <form id="contact__form" onsubmit="contact(event)">
+                    <div class="form__item">
+                        <label class="form__item--label">Name</label>
+                        <input class="input" name="user_name" type="text" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Email</label>
+                        <input class="input" name="user_email" type="email" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Message</label>
+                        <textarea class="input" name="message" type="text" required></textarea>
+                    </div>
+                    <button id="contact_submit" class="form__submit">
+                        Send!
+                    </button>
+                </form>
+                <div class="modal__overlay modal__overlay--loading">
+                    <i class="fa-solid fa-spinner"></i>
+                </div>
+                <div class="modal__overlay modal__overlay--success">
+                    Thanks for the message! Looking forward to speaking with you soon.
+                </div>
+            </div>
+        </div>
+        <img src="./assets/squiggly.svg" class="shape shape--0">
+        <img src="./assets/circle.svg" class="shape shape--1">
+        <img src="./assets/semi circle.svg" class="shape shape--2">
+        <img src="./assets/circle.svg" class="shape shape--3">
+        <img src="./assets/triangle.svg" class="shape shape--4">
+        <img src="./assets/circle.svg" class="shape shape--5">
+        <img src="./assets/semi circle.svg" class="shape shape--6">
+        <img src="./assets/circle.svg" class="shape shape--7">
+        <img src="./assets/squiggly.svg" class="shape shape--8">
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h1 class="section__title">
+                Skills
+            </h1>
+            <div class="skills__list">
+                <figure class="skills__item">
+                    <img class="skills__item--img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/242px-Python-logo-notext.svg.png"
+                        alt="Python" />
+                    <span class="skills__item--name">Python</span>
+                </figure>
+                <figure class="skills__item">
+                    <img class="skills__item--img"
+                        src="https://classes.engineering.wustl.edu/cse425s/images/2/26/Java.png"
+                        alt="Java" />
+                    <span class="skills__item--name">Java</span>
+                </figure>
+                <figure class="skills__item">
+                    <img class="skills__item--img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/612px-ISO_C%2B%2B_Logo.svg.png?20170928190710"
+                        alt="C++" />
+                    <span class="skills__item--name">C++</span>
+                </figure>
+                <figure class="skills__item">
+                    <img class="skills__item--img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/760px-C_Programming_Language.svg.png?20201031132917"
+                        alt="C" />
+                    <span class="skills__item--name">C</span>
+                </figure>
+                <figure class="skills__item">
+                    <img class="skills__item--img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                        alt="HTML" />
+                    <span class="skills__item--name">HTML</span>
+                </figure>
+                <figure class="skills__item">
+                    <img class="skills__item--img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                        alt="CSS" />
+                    <span class="skills__item--name">CSS</span>
+                </figure>
+                <figure class="skills__item">
+                    <img class="skills__item--img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                        alt="JavaScript" />
+                    <span class="skills__item--name">JavaScript</span>
+                </figure>
+                <figure class="skills__item">
+                    <img class="skills__item--img"
+                        src="https://raw.githubusercontent.com/ocaml/ocaml.org/4a84603106a57fb257912089f86986aa8ff1bb09/asset/policies/logos/OCaml_Sticker.svg"
+                        alt="OCaml" />
+                    <span class="skills__item--name">OCaml</span>
+                </figure>
+                <figure class="skills__item">
+                    <img class="skills__item--img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1180px-Node.js_logo.svg.png?20170401104355"
+                        alt="nodejs" />
+                    <span class="skills__item--name">nodejs</span>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">
+                    Here are some of my <span class="blue">projects.</span>
+                </h1>
+                <ul class="project__list">
+                    <li class="project">
+                        
+                        <div class="project__wrapper">
+                            <img src="./assets/MovieRecommenderSystem.jpg" class="project__img" alt="" />
+                            <div class="project__wrapper--bg">
+                                <div class="project__description">
+                                    <h3 class="project__description--title">
+                                        Movie Recommender System
+                                    </h3>
+                                    <h4 class="project__description--sub-title">Python, Git, Juputer, Streamlit, TMDB DataBase and API</h4>
+                                    <p class="project__description--para">
+                                        Created a Movie Recommender System using Python's Streamlit library, providing personalized movie suggestions with a 90% accuracy rate. Used Jupyter Notebook to streamline and organize movie data, reducing data processing time by 50%. Designed a user-friendly interface with dropdown menus and a recommendation button, improving user satisfaction by 30%. Implemented collaborative filtering and content-based filtering algorithms to enhance recommendation accuracy. Integrated the TMDB API to fetch movie data, including ratings, genres, and descriptions, ensuring up-to-date recommendations.
+                                    </p>
+                                    <div class="project__description--links">
+                                        <a href="https://github.com/patelpratyush/Movie-Recommender-System/"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                        <!-- <a href="https://duolingo-clone-brown.vercel.app/"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-solid fa-link"></i>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__wrapper">
+                            <img src="./assets/weatherapp.jpg" class="project__img" alt="" />
+                            <div class="project__wrapper--bg">
+                                <div class="project__description">
+                                    <h3 class="project__description--title">
+                                        Weather App
+                                    </h3>
+                                    <h4 class="project__description--sub-title">JavaScript, HTML/CSS, Git, OpenWeatherMap API</h4>
+                                    <p class="project__description--para">
+                                        Developed a dynamic weather application using HTML, CSS, and JavaScript, fetching real-time weather data from the OpenWeatherMap API. Implemented a user-friendly interface with a search bar and button, increasing user engagement by 40%. Utilized asynchronous JavaScript (Promises) to handle API calls, ensuring smooth data retrieval and display without impacting the user experience. Conducted user testing to gather feedback, resulting in UI improvements and increased user satisfaction by 25%.
+                                    </p>
+                                    <div class="project__description--links">
+                                        <a href="https://github.com/patelpratyush/Weather-App"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                        <a href="https://weather-website-app.vercel.app/"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-solid fa-link"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__wrapper">
+                            <img src="./assets/todo.jpg" class="project__img watermelon" alt="" />
+                            <div class="project__wrapper--bg">
+                                <div class="project__description">
+                                    <h3 class="project__description--title">
+                                        To Do List
+                                    </h3>
+                                    <h4 class="project__description--sub-title">JavaScript, HTML/CSS</h4>
+                                    <p class="project__description--para">
+                                    Developed a feature-rich Todo List web application using HTML, CSS, and JavaScript, enabling users to add, edit, and delete tasks with interactive functionalities. Integrated robust local storage functionality to persist user-generated data, ensuring 100% data retention after browser refreshes.Employed responsive design principles, improving accessibility across devices by 25%.onducted cross-browser testing to ensure compatibility and performance across multiple web browsers.
+                                    </p>
+                                    <div class="project__description--links">
+                                        <a href="https://github.com/patelpratyush/To-Do-List"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                        <a href="https://personal-todolist.vercel.app/"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-solid fa-link"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- <div class="project__wrapper">
+                            <img src="./assets/Screenshot_44.png" class="project__img" alt="" />
+                            <div class="project__wrapper--bg">
+                                <div class="project__description">
+                                    <h3 class="project__description--title">
+                                        Library E-Commerce Project
+                                    </h3>
+                                    <h4 class="project__description--sub-title">React.js, JavaScript, HTML, CSS</h4>
+                                    <p class="project__description--para">
+                                        Beautiful React.js-powered webpage with dynamic API fetching, components, and webhooks. Updating cart with book prices included. Built a seamless shopping cart for easy book selection and management with useEffect and useState hooks.
+                                    </p>
+                                    <div class="project__description--links">
+                                        <a href="https://github.com/kevinzhxng/Library-ECommerce-React-Project"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                        <a href="https://library-e-commerce-react-project.vercel.app/"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-solid fa-link"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__wrapper">
+                            <img src="./assets/Screenshot_45.png" class="project__img" alt="" />
+                            <div class="project__wrapper--bg">
+                                <div class="project__description">
+                                    <h3 class="project__description--title">
+                                        Movie Explorer
+                                    </h3>
+                                    <h4 class="project__description--sub-title">React.js, JavaScript, HTML, CSS</h4>
+                                    <p class="project__description--para">
+                                        Movies library search engine app utilizing OMDb API for data such as movie titles, release dates, genre, ratings, runtime, plot summeries, posters, and more with dynamic API fetching, components, and webhooks!
+                                    </p>
+                                    <div class="project__description--links">
+                                        <a href="https://github.com/kevinzhxng/Movie-Explorer-React"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                        <a href="https://movie-explorer-react-ten.vercel.app/"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-solid fa-link"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project__wrapper">
+                            <img src="./assets/Screenshot_39.png" class="project__img" alt="Treact" />
+                            <div class="project__wrapper--bg">
+                                <div class="project__description">
+                                    <h3 class="project__description--title">TReact Clone</h3>
+                                    <h4 class="project__description--sub-title">
+                                        HTML, CSS
+                                    </h4>
+                                    <p class="project__description--para">
+                                        Aesthetic landing page of the TReact template website!
+                                    </p>
+                                    <div class="project__description--links">
+                                        <a href="https://github.com/kevinzhxng/Treact" target="_blank"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                        <a href="https://kevinzhxng.github.io/Treact/" target="_blank"
+                                        target ="_blank" class="project__description--link">
+                                            <i class="fa-solid fa-link"></i>
+                                        </a>
+                                    </div>
+                                </div> -->
+                            <!-- </div>
+                        </div> -->
+                        
+                    </li>
+                </ul>
+                <h1 class="section__title">
+                    Here are some of other <span class="blue"><a href="https://github.com/patelpratyush" target="_blank">projects</a>.</span>
+                </h1>                            
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <!--for top and bottom, row is for left and right-->
+            <div class="row footer__row">
+                <figure>
+                    <img src="./assets/PP.png" class="footer__logo" alt="" />
+                </figure>
+                <div class="footer__social--list">
+                    <a href="https://github.com/patelpratyush" target ="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">
+                        <b>GitHub</b>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pratyush-patel/" target ="_blank"class="footer__social--link link__hover-effect link__hover-effect--white">
+                        <b>LinkedIn</b>
+                    </a>
+                    <a href="#landing-page" class="footer__social--link link__hover-effect link__hover-effect--white"
+                        onclick="toggleModal()">
+                        <b>Contact</b>
+                    </a>
+                    <a href="./assets/Pratyush Patel Resume.pdf" target ="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">
+                        <b>Resume</b>
+                    </a>
+                </div>
+                <div class="footer__copyright">Copyright &copy 2024 Pratyush Patel</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
