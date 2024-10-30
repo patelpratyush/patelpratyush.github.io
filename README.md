@@ -1,7 +1,12 @@
-
-![demo](https://github.com/patelpratyush/patelpratyush.github.io/blob/51c1416d3a4ddead95a011e082641241064ecb9b/src/images/demo.png)
-
-<img width="2033" alt="Screenshot 2024-10-30 at 18 40 40" src="https://github.com/user-attachments/assets/9c7b61e8-9f68-42a9-a7f8-74d3a6792686">
+<div align="center">
+  <img alt="Logo" src="https://github.com/patelpratyush/patelpratyush.github.io/blob/fc8d761e3c605ad0f35c8742e1c28d53ab2a816d/src/images/P.png" width="100" />
+</div>
+<h1 align="center">
+  patelpratyush.com - v3
+</h1>
+<p align="center">
+  
+![demo](https://github.com/user-attachments/assets/9c7b61e8-9f68-42a9-a7f8-74d3a6792686")
 
 ## 🛠 Installation & Set Up
 
