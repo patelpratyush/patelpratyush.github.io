@@ -6,7 +6,7 @@
 </h1>
 <p align="center">
   
-![demo](https://github.com/user-attachments/assets/9c7b61e8-9f68-42a9-a7f8-74d3a6792686")
+![demo](https://github.com/patelpratyush/patelpratyush.github.io/blob/fb3c6b01bd0f68ca088cbe999d40b56c9d0de982/src/images/Screenshot%202024-10-30%20at%2018.43.31.png)
 
 ## 🛠 Installation & Set Up
 
