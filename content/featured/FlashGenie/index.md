@@ -16,4 +16,4 @@ tech:
   - Vercel
 ---
 
-FlashGenie is a flashcard generation web application built with Node.js. Designed to enhance learning and memorization, FlashGenie offers a seamless experience for creating, saving, and reviewing flashcards. It includes robust features like user authentication, subscription management, and local storage tracking, making it a powerful tool for both students and professionals.
+Developed an AI-powered flashcard web application, integrating Next.js, Clerk for user authentication, and Firebase for backend services, onboarding over 100 users. Implemented Stripe for seamless payment processing, generating $1K in revenue from paid customers. Executed a social media marketing strategy, increasing user engagement by 50% and expanding the user base.

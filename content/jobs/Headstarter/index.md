@@ -7,6 +7,6 @@ range: 'July 2024 - Sep 2024'
 url: 'https://headstarter.co/'
 ---
 
-- Spearheaded the development of multiple AI-driven web applications, leveraging Next.js, React, and Firebase, which increased user engagement by 40% through iterative enhancements and real-time data processing.
-- Built and deployed a scalable SaaS platform with advanced user authentication using NextAuth.js and Firebase, integrating Stripe for secure transactions, resulting in seamless payment processing and a 95% customer satisfaction rate.
-- Designed and implemented a web scraping tool to automate data extraction from Rate My Professor, enhancing a knowledge retrieval system with Pinecone and OpenRouter API, boosting query response accuracy by 30%.
+- Boosted user engagement by 40% through AI-driven web apps built with Next.js, React, and Firebase.
+- Deployed a scalable SaaS platform with NextAuth.js and Stripe, achieving 95% customer satisfaction.
+- Increased query accuracy by 30% by automating data extraction using a web scraper for Rate My Professor

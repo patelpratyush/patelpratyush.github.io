@@ -13,4 +13,5 @@ tech:
   - Pinecone
 ---
 
-ProfessAI is an AI-powered assistant designed to help students find the best professors based on their specific needs and preferences. Leveraging a Retrieval-Augmented Generation (RAG) systemProfessAI analyzes a comprehensive database of professor reviews to provide concise, relevant, and personalized recommendations, streamlining the decision-making process for students.
+Developed ProfessAI, an AI-powered assistant providing personalized professor recommendations, increasing user retention by 30% using a Retrieval-Augmented Generation (RAG) system. Implemented comprehensive review analysis, real-time chat interface, and advanced search capabilities,
+improving user experience and engagement by 40%. Leveraged Google Generative AI and Pinecone for efficient text embeddings and vector storage, reducing data retrieval time by 50%.
