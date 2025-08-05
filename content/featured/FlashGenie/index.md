@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '4'
 title: 'FlashGenie'
 cover: './FlashGenie.png'
 github: 'https://github.com/patelpratyush/AI-Flashcards'

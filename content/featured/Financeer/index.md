@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'Financeer'
 cover: './Screenshot 2024-10-30 at 16.52.28.png'
 external: 'https://github.com/patelpratyush/Financeer/tree/main'

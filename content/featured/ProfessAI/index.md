@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '5'
 title: 'ProfessAI'
 cover: './image.png'
 github: 'https://github.com/patelpratyush/Rate-My-Prof/'
